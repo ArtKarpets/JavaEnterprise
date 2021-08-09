@@ -1,7 +1,7 @@
-package entity;
+package com.spring.annotation.entity;
+
 
 public class Student {
-
     private String name;
     private String surname;
     private int answer;
@@ -30,8 +30,4 @@ public class Student {
         this.answer = answer;
     }
 
-    @Override
-    public String toString() {
-        return "Student " + name + " " + surname + " your have " + answer + " correct answer";
-    }
 }
